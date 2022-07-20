@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Sign Up</title>
+</head>
+
+<body onload="signupLoad()">
+    <div id="navbar"></div>
+    <div id="signup-container">
+        <div id="signup-box">
+            <div id="signup-box-section">
+                <div id="sign-box-section-top">
+                    <h1>JOIN</h1>
+                    <div id="signup-social-media-buttons">
+                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                                class="signup-social-media-logo">
+                                <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                <path
+                                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                            </svg> <a href="">Facebook</a></button>
+                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512"
+                                class="signup-social-media-logo">
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+                            </svg>
+                            <a href="">Google</a></button>
+                    </div>
+                </div>
+
+                <div id="signup-box-section-divider">
+                    <div id="signup_ordiv">
+                        <div id="signup_orright"></div>
+                        <div id="signup_orcenter">or</div>
+                        <div id="signup_orleft"></div>
+                    </div>
+                </div>
+
+                <div id="signup-box-form-section">
+                    <form>
+                        <div id="signup-form">
+                            <div id="signup-form-input-section">
+                                <input type="text" id="signupFirstName" placeholder="First Name">
+                                <input type="text" id="signupLastName" placeholder="Last Name">
+                                <input type="email" id="signupEmail" placeholder="Email Address">
+                                <input type="text" id="signupUsername" placeholder="Username">
+                                <input type="password" id="signupPassword" placeholder="Password">
+                                <input type="password" id="signupConfirmPassword" placeholder="Confirm Password">
+                            </div>
+                            <div id="signup-form-details-section">
+                                <h3>Key Benifits:</h3>
+                                <ul>
+                                    <li><span class="material-symbols-outlined">check_small</span>
+                                        <p>Customizable fitness calendar</p>
+                                    </li>
+                                    <li><span class="material-symbols-outlined">check_small</span>
+                                        <p>Daily progress tracking</p>
+                                    </li>
+                                    <li><span class="material-symbols-outlined">check_small</span>
+                                        <p>Favorite workout videos</p>
+                                    </li>
+                                    <li><span class="material-symbols-outlined">check_small</span>
+                                        <p>24/7 community support</p>
+                                    </li>
+                                    <li><span class="material-symbols-outlined">check_small</span>
+                                        <p>Helpful health, nutrition and fitness information</p>
+                                    </li>
+                                    <li><span class="material-symbols-outlined">check_small</span>
+                                        <p>and much, much more…</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="signup-recaptcha">
+                            <div>
+                                <input type="checkbox" id="signupRecaptcha">
+                                <p>i'm not a robot</p>
+                            </div>
+
+                            <div>
+                                <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="">
+                                <p>reCAPTCHA</p>
+                                <p>Privacy - Terms</p>
+                            </div>
+                        </div>
+
+                        <div id="signup-terms-and-conditions">
+                            <input type="checkbox" id="signuptandc">
+                            <p>I agree to the Fitness Blender <a href="">terms of service</a> and <a href=""> privacy policy</a></p>
+                        </div>
+
+                        <div id="signup-buttons" value="submit">
+                            <button>JOIN</button>
+                        </div>
+
+                        <div id="signup-bottom-section">
+                            <p>Already a Member? <a href="">Sign In</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+</body>
+
+</html>
+<script src="scripts/signup.js" type="module"></script>
