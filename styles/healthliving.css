@@ -1,0 +1,394 @@
+#health_card{
+    width:100%;
+    height: 400px;
+    border: 1px solid transparent;
+    background-image:url("https://d18zdz9g6n5za7.cloudfront.net/healthy_living/masthead-healthy.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;  
+}
+#health_card1{
+    margin-top: 110px;
+    padding-left: 40px;
+    width: 30%;
+    font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+#health_card1>p{
+    color: #4296cb;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px;
+}
+#health_card1>p~h1{    
+    color: #fff;
+    font-weight: 500;  
+} 
+#health_card1>p~h1~p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px; 
+}
+#fitness{
+    width: 100%;
+    height: 500px;
+    border: 1px solid transparent;
+    background-color: #e3ebee;
+    font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+#fitness>h1{
+    margin: 60px 0px 0px 40px;
+    font-weight: 300;
+    font-size: 30px;
+}
+#health_fitness{
+    display: grid;
+    border: 1px solid transparent;
+    justify-content:space-around;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,320px);
+    gap:10px;
+    margin: 20px 40px 0px 40px; 
+
+}
+#health_fitness>div{
+    width:100%;
+    height: 320px;
+    margin: auto;
+    border: 1px solid transparent;
+    background-color: #ffffff; 
+    
+}
+#health_fitness>div>img{
+    margin: auto;
+    width:100%;
+    height: 50%; 
+}
+img~p{
+    color: #4296cb;
+    font-weight: 500;
+    font-size: 10px;
+    padding-left: 20px;
+}
+p~h3{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+}
+h3~p{
+    color: black;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#health{
+    width: 100%;
+    height: 500px;
+    border: 1px solid transparent;
+    background-color: #f0f4f6;
+    font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+#health>h1{
+    margin: 60px 0px 0px 40px;
+    font-weight: 300;
+    font-size: 30px;
+}
+#health_health{
+    display: grid;
+    border: 1px solid transparent;
+    justify-content:space-around;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,320px);
+    gap:10px;
+    margin: 20px 40px 0px 40px; 
+
+}
+#health_health>div{
+    width:100%;
+    height: 320px;
+    margin: auto;
+    border: 1px solid transparent;
+    background-color: #ffffff; 
+    
+}
+#health_health>div>img{
+    margin: auto;
+    width:100%;
+    height: 50%; 
+}
+img~p{
+    color: #4296cb;
+    font-weight: 500;
+    font-size: 10px;
+    padding-left: 20px;
+}
+p~h3{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+}
+h3~p{
+    color: black;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#nutrition{
+    width: 100%;
+    height: 500px;
+    border: 1px solid transparent;
+    background-color: #e3ebee;
+    font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+#nutrition>h1{
+    margin: 60px 0px 0px 40px;
+    font-weight: 300;
+    font-size: 30px;
+}
+#health_nutrition{
+    display: grid;
+    border: 1px solid transparent;
+    justify-content:space-around;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,320px);
+    gap:10px;
+    margin: 20px 40px 0px 40px; 
+
+}
+#health_nutrition>div{
+    width:100%;
+    height: 320px;
+    margin: auto;
+    border: 1px solid transparent;
+    background-color: #ffffff; 
+    
+}
+#health_nutrition>div>img{
+    margin: auto;
+    width:100%;
+    height: 50%; 
+}
+img~p{
+    color: #4296cb;
+    font-weight: 500;
+    font-size: 10px;
+    padding-left: 20px;
+}
+p~h3{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+}
+h3~p{
+    color: black;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#healthrec{
+    width: 100%;
+    height: 500px;
+    border: 1px solid transparent;
+    background-color: #f0f4f6;
+    font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+#healthrec>h1{
+    margin: 60px 0px 0px 40px;
+    font-weight: 300;
+    font-size: 30px;
+}
+#health_healthrec{
+    display: grid;
+    border: 1px solid transparent;
+    justify-content:space-around;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,320px);
+    gap:10px;
+    margin: 20px 40px 0px 40px; 
+
+}
+#health_healthrec>div{
+    width:100%;
+    height: 320px;
+    margin: auto;
+    border: 1px solid transparent;
+    background-color: #ffffff; 
+    
+}
+#health_healthrec>div>img{
+    margin: auto;
+    width:100%;
+    height: 50%; 
+}
+img~p{
+    color: #4296cb;
+    font-weight: 500;
+    font-size: 10px;
+    padding-left: 20px;
+}
+p~h3{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+}
+h3~p{
+    color: black;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#expert{
+    width: 100%;
+    height: 500px;
+    border: 1px solid transparent;
+    background-color: #e3ebee;
+    font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+#expert>h1{
+    margin: 60px 0px 0px 40px;
+    font-weight: 300;
+    font-size: 30px;
+}
+#health_expert{
+    display: grid;
+    border: 1px solid transparent;
+    justify-content:space-around;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,320px);
+    gap:10px;
+    margin: 20px 40px 0px 40px; 
+
+}
+#health_expert>div{
+    width:100%;
+    height: 320px;
+    margin: auto;
+    border: 1px solid transparent;
+    background-color: #ffffff; 
+    
+}
+#health_expert>div>img{
+    margin: auto;
+    width:100%;
+    height: 50%; 
+}
+img~p{
+    color: #4296cb;
+    font-weight: 500;
+    font-size: 10px;
+    padding-left: 20px;
+}
+p~h3{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+}
+h3~p{
+    color: black;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#mentalhealth{
+    width: 100%;
+    height: 500px;
+    border: 1px solid transparent;
+    background-color: #f0f4f6;
+    font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+#mentalhealth>h1{
+    margin: 60px 0px 0px 40px;
+    font-weight: 300;
+    font-size: 30px;
+}
+#health_mentalhealth{
+    display: grid;
+    border: 1px solid transparent;
+    justify-content:space-around;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,320px);
+    gap:10px;
+    margin: 20px 40px 0px 40px; 
+
+}
+#health_mentalhealth>div{
+    width:100%;
+    height: 320px;
+    margin: auto;
+    border: 1px solid transparent;
+    background-color: #ffffff; 
+    
+}
+#health_mentalhealth>div>img{
+    margin: auto;
+    width:100%;
+    height: 50%; 
+}
+img~p{
+    color: #4296cb;
+    font-weight: 500;
+    font-size: 10px;
+    padding-left: 20px;
+}
+p~h3{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+}
+h3~p{
+    color: black;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#wellness{
+    width: 100%;
+    height: 500px;
+    border: 1px solid transparent;
+    background-color: #e3ebee;
+    font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+#wellness>h1{
+    margin: 60px 0px 0px 40px;
+    font-weight: 300;
+    font-size: 30px;
+}
+#health_wellness{
+    display: grid;
+    border: 1px solid transparent;
+    justify-content:space-around;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,320px);
+    gap:10px;
+    margin: 20px 40px 0px 40px; 
+
+}
+#health_wellness>div{
+    width:100%;
+    height: 320px;
+    margin: auto;
+    border: 1px solid transparent;
+    background-color: #ffffff; 
+    
+}
+#health_wellness>div>img{
+    margin: auto;
+    width:100%;
+    height: 50%; 
+}
+img~p{
+    color: #4296cb;
+    font-weight: 500;
+    font-size: 10px;
+    padding-left: 20px;
+}
+p~h3{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+}
+h3~p{
+    color: black;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+}
