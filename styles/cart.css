@@ -36,6 +36,7 @@ body {
     width: 78%;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    background-color: white;
 }
 
 #cart-data-header {
@@ -148,10 +149,7 @@ body {
     font-weight: 600;
 }
 
-#cart-data-payment div:first-child button:hover {
-    color: white;
-    background-color: #4296cb;
-}
+
 
 #cart-data-payment div:last-child button {
     width: 50%;
@@ -162,4 +160,14 @@ body {
     border-radius: 4px;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+#cart-data-payment div:last-child button a{
+    text-decoration: none;
+    color: white;
+}
+
+#cart-data-payment div:first-child button a{
+    text-decoration: none;
+    color: #4296cb;
 }

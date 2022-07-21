@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/checkout.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Checkout</title>
+</head>
+<body onload="showCheckoutdata()">
+    <div id="navbar"></div>
+    <div id="checkout-section">
+        <div id="header-checkout-section">
+            <div id="header-checkout-heading">
+                <p>Checkout</p>
+            </div>
+        </div>
+
+        <div id="checkout-data-section">
+            <div id="checkout-data-box">
+                <div id="checkout-data-header-review">
+                    <div>REVIEW ORDER</div>
+                    <div><span class="material-symbols-outlined">
+                        chevron_left
+                        </span><a href="cart.html">Edit Cart</a></div>
+                </div>
+                <div id="checkout-data-header">
+                    <div>ITEM</div>
+                    <div>PRICE</div>
+                </div>
+                <div id="checkout-data-add"></div>
+                <div id="checkout-data-addtotal">
+                    <div>Order Total:</div>
+                    <div  id="TotalPrice-checkout"></div>
+                </div>
+            </div>
+            <div id="checkout-billing-box">
+                <div id="checkout-data-header-Billing">
+                    <div>Payment Information</div>
+                </div>
+
+                <div id="checkout-payment-proceed-box">
+                    <div><img src="./images/card.png" alt=""></div>
+                    <div>
+                        <label for="">Card Number</label>
+                        <input type="text" placeholder="123456789">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="">Expiration Date</label>
+                            <input type="text" placeholder="12/22">
+                        </div>
+                        <div>
+                            <label for="">CVV</label>
+                            <input type="text" placeholder="123">
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <div id="checkout-place-order">
+                    <div>Cancel</div>
+                    <div><button>PLACE ORDER</button></div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="./scripts/checkout.js" type="module"></script>
