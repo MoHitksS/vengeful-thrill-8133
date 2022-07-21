@@ -77,12 +77,35 @@ body{
     font-weight: 400;
     text-decoration: none;
 }
+
+
+
+
 #selection>#box>#second{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-column-gap: 10px;
     height: 60px;
 }
+
+/* #selection>#box>#first .exclusive-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #3cdbb8;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 3px rgb(0 0 0 / 20%);
+    padding: 0.5rem 1rem;
+    border-radius: 0 0 0 6px;
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    z-index: 1;
+    cursor: pointer;
+} */
+
+
 #features{
     background-color: #f0f4f6;
 }
@@ -213,4 +236,340 @@ a {
 #return>.demi{
     text-align: center;
     color: #4296cb;
+}
+
+
+#selectionQ{
+    height: 550px;
+    width: auto;
+    background-color: #e3ebee;
+}
+#selectionQ>#boxQ{
+    padding: 3rem 9rem 3rem 9rem;
+    
+}
+#selectionQ>#boxQ>#firstQ{
+    display: flex;
+    justify-content: space-between;
+}
+#selectionQ>#boxQ>#firstQ h2{
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+#selectionQ>#boxQ>#firstQ a{
+    font-size: 1rem;
+    padding:35px 0px 35px 0px;
+    background: none;
+    color: #4296cb;
+    font-weight: 400;
+    text-decoration: none;
+}
+#selectionQ>#boxQ>#third{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    height: 60px;
+}
+
+
+
+#featuresQ{
+    background-color: #f0f4f6;
+}
+#featuresQ>#box2Q{
+    padding: 3rem 9rem 3rem 9rem;
+}
+#featuresQ>#box2Q>#detailsQ>h2{
+    font-size: 2.2rem;
+    line-height: 3.8rem;
+    letter-spacing: -0.3px;
+    font-weight: 100;
+}
+table{
+    width: 100%;
+}
+table th {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+table tbody>tr>td{
+    border-top: 1px solid #e3ebee;
+    vertical-align: top;
+    padding: 10px;
+    font-size: 14px;
+    width: 80%;
+}
+.membershipfeatures_cell{
+    width: 15%;
+    text-align: center;
+    color: #26bc35;
+}
+.membershipfeatures_cell div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+}
+
+#featuresQ>#box2Q>#detailsQ>.groupQ .btnQ.-mainQ{
+    background: #4296cb;
+    border-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.btnQ{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 25px 10px;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    border-radius: 4px;
+    border: 1px solid #f0f4f6;
+    color: #212432;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 41%;
+    margin-top: 28px;
+}
+
+
+
+#selectionM{
+    height: 550px;
+    width: auto;
+    background-color: #e3ebee;
+}
+#selectionM>#boxM{
+    padding: 3rem 9rem 3rem 9rem;
+    
+}
+#selectionM>#boxM>#firstM{
+    display: flex;
+    justify-content: space-between;
+}
+#selectionM>#boxM>#firstM h2{
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+#selectionM>#boxM>#firstM a{
+    font-size: 1rem;
+    padding:35px 0px 35px 0px;
+    background: none;
+    color: #4296cb;
+    font-weight: 400;
+    text-decoration: none;
+}
+#selectionM>#boxM>#four{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    height: 60px;
+}
+
+#featuresM{
+    background-color: #f0f4f6;
+}
+#featuresM>#box2M{
+    padding: 3rem 9rem 3rem 9rem;
+}
+#featuresM>#box2M>#detailsM>h2{
+    font-size: 2.2rem;
+    line-height: 3.8rem;
+    letter-spacing: -0.3px;
+    font-weight: 100;
+}
+table{
+    width: 100%;
+}
+table th {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+table tbody>tr>td{
+    border-top: 1px solid #e3ebee;
+    vertical-align: top;
+    padding: 10px;
+    font-size: 14px;
+    width: 80%;
+}
+.membershipfeatures_cell{
+    width: 15%;
+    text-align: center;
+    color: #26bc35;
+}
+.membershipfeatures_cell div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+}
+
+#featuresM>#box2M>#detailsM>.groupM .btnM.-mainM{
+    background: #4296cb;
+    border-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.btnM{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 25px 10px;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    border-radius: 4px;
+    border: 1px solid #f0f4f6;
+    color: #212432;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 41%;
+    margin-top: 28px;
+}
+
+
+
+
+#selectionP{
+    height: 550px;
+    width: auto;
+    background-color: #e3ebee;
+}
+#selectionP>#boxP{
+    padding: 3rem 9rem 3rem 9rem;
+    
+}
+#selectionP>#boxP>#firstP{
+    display: flex;
+    justify-content: space-between;
+}
+#selectionP>#boxP>#firstP h2{
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+#selectionP>#boxP>#firstP a{
+    font-size: 1rem;
+    padding:35px 0px 35px 0px;
+    background: none;
+    color: #4296cb;
+    font-weight: 400;
+    text-decoration: none;
+}
+#selectionP>#boxP>#five{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    height: 60px;
+}
+
+#featuresP{
+    background-color: #f0f4f6;
+}
+#featuresP>#box2P{
+    padding: 3rem 9rem 3rem 9rem;
+}
+#featuresP>#box2P>#detailsP>h2{
+    font-size: 2.2rem;
+    line-height: 3.8rem;
+    letter-spacing: -0.3px;
+    font-weight: 100;
+}
+table{
+    width: 100%;
+}
+table th {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+table tbody>tr>td{
+    border-top: 1px solid #e3ebee;
+    vertical-align: top;
+    padding: 10px;
+    font-size: 14px;
+    width: 80%;
+}
+.membershipfeatures_cell{
+    width: 15%;
+    text-align: center;
+    color: #26bc35;
+}
+.membershipfeatures_cell div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+}
+
+#featuresP>#box2P>#detailsP>.groupP .btnP.-mainP{
+    background: #4296cb;
+    border-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.btnP{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 25px 10px;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    border-radius: 4px;
+    border: 1px solid #f0f4f6;
+    color: #212432;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 41%;
+    margin-top: 28px;
+}
+
+
+#faqP{
+    background-color: #313443;
+    color: #fff;
+}
+#faqP>.fq{
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 2rem 9rem 2rem 9rem;
+}
+#faqP>.fq h2{
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 200;
+}
+#faqP>.fq h3{
+    font-size: 1.9em;
+    line-height: 0.8em;
+    font-weight: 100;
+}
+#faqP>.fq p{
+    font-size: 1em;
+    line-height: 1.9em;
+    font-weight: 100;
+    margin-bottom: 4rem;
+    margin-top: -1rem;
 }
