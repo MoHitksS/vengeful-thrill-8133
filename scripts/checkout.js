@@ -2,6 +2,7 @@ let cartData = JSON.parse(localStorage.getItem("cartData"))
 let total = 0;
 
 window.onload = showCheckoutdata()
+window.onload = paymentGateway()
 
 function showCheckoutdata(){
     let container = document.getElementById("checkout-data-add")
@@ -31,4 +32,25 @@ function showCheckoutdata(){
         dataDiv.append(leftDiv,rightDiv)
         container.append(dataDiv)
     });
+}
+
+function paymentGateway(){
+    document.getElementById("placeOrder").onclick =() =>{
+        placeOrder();
+    }
+}
+
+function placeOrder(){
+    let cardNumber = document.getElementById("cardNumber").value;
+    let expiry = document.getElementById("expirationDate").value;
+    let cvv = document.getElementById("cvv").value;
+
+    if(cardNumber == "123456789" && expiry =="12/22" && cvv == "123"){
+        alert("Purchased Successfull")
+        cartData = [];
+        localStorage.setItem("cartData",JSON.stringify(cartData));
+        window.location.href = "index.html"
+    }else{
+        alert("Entered Wrong Details")
+    }
 }

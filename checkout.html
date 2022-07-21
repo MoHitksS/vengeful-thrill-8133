@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Checkout</title>
 </head>
-<body onload="showCheckoutdata()">
+<body onload="Checkoutdata()">
     <div id="navbar"></div>
     <div id="checkout-section">
         <div id="header-checkout-section">
@@ -44,24 +44,24 @@
                     <div><img src="./images/card.png" alt=""></div>
                     <div>
                         <label for="">Card Number</label>
-                        <input type="text" placeholder="123456789">
+                        <input type="text" id="cardNumber" placeholder="123456789">
                     </div>
                     <div>
                         <div>
                             <label for="">Expiration Date</label>
-                            <input type="text" placeholder="12/22">
+                            <input type="text" id="expirationDate" placeholder="12/22">
                         </div>
                         <div>
                             <label for="">CVV</label>
-                            <input type="text" placeholder="123">
+                            <input type="text" id="cvv" placeholder="123">
                         </div>
                     </div>
 
                     
                 </div>
                 <div id="checkout-place-order">
-                    <div>Cancel</div>
-                    <div><button>PLACE ORDER</button></div>
+                    <div><a href="cart.html">Cancel</a></div>
+                    <div onload="paymentGateway()"><button id="placeOrder">PLACE ORDER</button></div>
                 </div>
                 
             </div>
