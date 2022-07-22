@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*{
+    font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+#main{
+    background-color: #222533;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+    color: #fff;
+    background-image: url(https://d18zdz9g6n5za7.cloudfront.net/workouts_programs/masthead-workouts-xs.jpg);
+}
+#main>#container{
+    height: 250px;
+    padding: 150px 0px 0px 150px;
+}
+#main>#container>#text{
+    color: #4296cb;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: -20px;
+}
+#main>#container>#heading{
+    letter-spacing: -0.02em;
+    margin-left: -3px;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+.selection{
+    height: 550px;
+    width: auto;
+    background-color: #e3ebee;
+    padding-bottom: 40px;
+}
+.selection>.box{
+    padding: 3rem 9rem 3rem 9rem;
+    
+}
+.selection>.box>.first{
+    display: flex;
+    justify-content: space-between;
+}
+.selection>.box>.first h2{
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+.selection>.box>.first a{
+    font-size: 1rem;
+    padding:35px 0px 35px 0px;
+    background: none;
+    color: #4296cb;
+    font-weight: 400;
+    text-decoration: none;
+}
+.selection>.box>#select{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    height: 60px;
+}
+.workout_cards:hover{
+    box-shadow: 0px 0px 0px 3px #4296cb;
+    transition: box-shawdow 0.4s linear;
+}
+#change{
+    background-color: #f0f4f6;
+}
+.selection>.box>#select1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    height: 60px;
+}
+.selection>.box>#select2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    height: 60px;
+}
+.selection>.box>#select3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    height: 60px;
+}
+.selection>.box>#select4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    height: 60px;
+}
+
