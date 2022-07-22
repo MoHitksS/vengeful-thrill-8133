@@ -46,11 +46,8 @@ function placeOrder(){
     let cvv = document.getElementById("cvv").value;
 
     if(cardNumber == "123456789" && expiry =="12/22" && cvv == "123"){
-        alert("Purchased Successfull")
-        cartData = [];
-        localStorage.setItem("cartData",JSON.stringify(cartData));
-        window.location.href = "index.html"
+        window.location.href = "payment.html"
     }else{
-        alert("Entered Wrong Details")
+        alert("Fill All The Details")
     }
 }
