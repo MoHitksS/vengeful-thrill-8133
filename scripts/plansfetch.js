@@ -5,7 +5,7 @@ let append = (data,container) =>{
     data.forEach(element => {
         let card = document.createElement("div");
         card.setAttribute("class", "plans-card")
-
+        
         let imgBox = document.createElement("div");
         let img = document.createElement("img");
         img.src = element.img
@@ -53,11 +53,28 @@ let append = (data,container) =>{
 
 function ShowData(element){
     let ShowDetailsContainer = document.querySelector("#showBagDataContainer");
+    ShowDetailsContainer.style.position = "fixed" ;
+
+    let body = document.querySelector("body");
+    body.style.position = "fixed" 
+
     let ShowDetailsBagData = document.querySelector("#showBagData");
     ShowDetailsBagData.style.visibility = "visible"
     ShowDetailsBagData.innerHTML = null;
+
     let ShowDetails = document.createElement("div");
     ShowDetails.setAttribute("class", "BagData-item")
+
+    let closebutton = document.createElement("button");
+    closebutton.setAttribute("class","closebutton");
+    closebutton.onclick = () =>{
+        window.location.reload();
+    }
+    let spanclose = document.createElement("span");
+    spanclose.setAttribute("class", "material-symbols-outlined");
+    spanclose.innerText = "close";
+
+    closebutton.append(spanclose)
     let img = document.createElement("img");
     img.src = element.img;
 
@@ -101,7 +118,7 @@ function ShowData(element){
     let productPrice = document.createElement("p");
     productPrice.innerText = `$${element.price}`;
 
-    ShowDetails.append(img,h2,ul,buttonDiv,productPrice);
+    ShowDetails.append(closebutton,img,h2,ul,buttonDiv,productPrice);
     ShowDetailsBagData.append(ShowDetails)
     cartData.push(element)
     localStorage.setItem("cartData",JSON.stringify(cartData))

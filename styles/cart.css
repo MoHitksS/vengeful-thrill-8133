@@ -139,27 +139,30 @@ body {
 }
 
 #cart-data-payment div:first-child button {
-    width: 40%;
-    padding: 15px 0px;
+    width: 100%;
+    padding: 15px 20px;
     border: 1px solid #4296cb;
     background-color: transparent;
     color: #4296cb;
     border-radius: 4px;
     text-transform: uppercase;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
 
 #cart-data-payment div:last-child button {
-    width: 50%;
-    padding: 20px 0px;
+    width: 100%;
+    padding: 25px 50px;
     border: 1px solid #4296cb;
     background-color: #4296cb;
     color: white;
     border-radius: 4px;
     text-transform: uppercase;
     font-weight: 600;
+    cursor: pointer;
+
 }
 
 #cart-data-payment div:last-child button a{

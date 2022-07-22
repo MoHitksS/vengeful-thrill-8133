@@ -7,15 +7,14 @@ body {
     padding: 0px;
     box-sizing: border-box;
     background-color: #f0f4f6;
+    position: absolute;
     
 }
-
 #plans-container {
     width: 100%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    position: absolute;
 }
 
 #plans-section {
@@ -105,23 +104,53 @@ body {
     gap: 10px;
 }
 
+
 #showBagData{
-    width: 30%;
-    height: 600px;
-    visibility: hidden;
-    margin: auto;
-    position: absolute;
-    z-index: 99;
-    left: 25%;
-    right: 25%;
-    top: 5%;
-    bottom: 25%;
-    background-color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: #fff;
+    left: 50%;
+    width: 490px;
+    max-height: 100%;
+    overflow: auto;
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: -245px;
+    z-index: 1010;
     border-radius: 10px;
-    overflow: hidden;
+    -webkit-filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
+#showBagDataContainer{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 1001;
+    -webkit-transition: background-color 250ms,visibility 250ms;
+    -o-transition: background-color 250ms,visibility 250ms;
+    transition: background-color 250ms,visibility 250ms;
+}
+.closebutton{
+    background: none;
+    border: 0;
+    color: white;
+    padding: 0;
+    background: none;
+    margin: 0px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    padding-top: 4px;
+    z-index: 5;
+}
 #showBagData img{
     width: 100%
 }
