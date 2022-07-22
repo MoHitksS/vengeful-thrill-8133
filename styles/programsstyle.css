@@ -56,6 +56,13 @@ body{
     width: auto;
     background-color: #e3ebee;
 }
+.programs_cards:hover{
+    /* height: 550px;
+    width: auto;
+    background-color: #e3ebee; */
+    box-shadow: 0px 0px 0px 3px #4296CB;
+    transition: box-shadow 0.4s linear;
+}
 #selection>#box{
     padding: 3rem 9rem 3rem 9rem;
     

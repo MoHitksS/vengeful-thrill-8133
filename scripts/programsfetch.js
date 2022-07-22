@@ -3,25 +3,6 @@ let append =(data,cont) =>{
         
         console.log(data)
 
-
-        // let fb=document.createElement("div");
-        // fb.innerText="FB Plus";
-        // fb.style.position="absolute";
-        // fb.style.top="0";
-        // fb.style.right="0";
-        // fb.style.background="#3cdbb8";
-        // fb.style.color="#ffffff";
-        // fb.style.fontWeight="bold";
-        // fb.style.fontSize="1.2em";
-        // fb.style.textShadow="0px 0px 3px rgb(0 0 0 / 20%)";
-        // fb.style.padding="0.5rem 1rem";
-        // fb.style.borderRadius="0 0 0 6px";
-        // fb.style.borderBottom="2px solid #ffffff";
-        // fb.style.borderLeft="2px solid #ffffff";
-        // fb.style.zIndex="1";
-        // fb.style.cursor="pointer";
-
-
         let image=document.createElement("img")
         image.src=img;
         image.style.height="50%";
@@ -49,7 +30,27 @@ let append =(data,cont) =>{
         
 
         let div=document.createElement("div");
+        div.setAttribute("class","programs_cards");
         div.style.backgroundColor="white";
+
+
+
+        // let fb=document.createElement("div");
+        // fb.innerText="FB Plus";
+        // fb.style.position="absolute";
+        // fb.style.top="0";
+        // fb.style.right="0";
+        // fb.style.background="#3cdbb8";
+        // fb.style.color="#ffffff";
+        // fb.style.fontWeight="bold";
+        // fb.style.fontSize="1.2em";
+        // fb.style.textShadow="0px 0px 3px rgb(0 0 0 / 20%)";
+        // fb.style.padding="0.5rem 1rem";
+        // fb.style.borderRadius="0 0 0 6px";
+        // fb.style.borderBottom="2px solid #ffffff";
+        // fb.style.borderLeft="2px solid #ffffff";
+        // fb.style.zIndex="1";
+        // fb.style.cursor="pointer";
         // div.style.padding="10px"
 
         div.append(image,catg,tit,sub)
