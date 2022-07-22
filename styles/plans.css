@@ -1,0 +1,215 @@
+* {
+    font-family: "Maison Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #f0f4f6;
+    position: absolute;
+    
+}
+#plans-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#plans-section {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: auto;
+}
+
+.plans-card {
+    width: 100%;
+    background-color: white;
+}
+
+.plans-card:hover {
+    box-shadow: 0px 0px 0px 3px #4296cb;
+    transition: box-shadow 0.7s linear;
+}
+
+.plans-card>div {
+    width: 100%;
+}
+
+.plans-card>div>img {
+    width: 100%;
+}
+
+.plans-card>div:nth-child(2) {
+    width: 85%;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    margin: auto;
+}
+
+.plans-card>div:nth-child(2)>p {
+    font-size: 12px;
+    color: #4296cb;
+}
+
+.plans-card>div:nth-child(2)>h3 {
+    font-size: 14px;
+    font-weight: 550;
+    -webkit-font-smoothing: antialiased;
+    color: #212432;
+}
+
+.product-message-card {
+    margin-top: 0%;
+}
+
+.product-message-card>p {
+    width: 90%;
+    margin: auto;
+    font-size: 10px;
+    margin-bottom: -10px;
+}
+
+.product-message-card>div {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.product-message-card>div>p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.product-message-card>div>button {
+    width: 55%;
+    padding: 7px 0px;
+    background-color: #4296cb;
+    border: 1px solid #4296cb;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+#showBagData{
+    background: #fff;
+    left: 50%;
+    width: 490px;
+    max-height: 100%;
+    overflow: auto;
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: -245px;
+    z-index: 1010;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#showBagDataContainer{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 1001;
+    -webkit-transition: background-color 250ms,visibility 250ms;
+    -o-transition: background-color 250ms,visibility 250ms;
+    transition: background-color 250ms,visibility 250ms;
+}
+.closebutton{
+    background: none;
+    border: 0;
+    color: white;
+    padding: 0;
+    background: none;
+    margin: 0px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    padding-top: 4px;
+    z-index: 5;
+}
+#showBagData img{
+    width: 100%
+}
+.BagData-item h2{
+    width: 50%;
+    height: 40px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.BagData-item h2 span:first-child{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-right: 5px;
+    padding-top: 0px;
+}
+
+.BagData-item h2 span:nth-child(2){
+    font-size: 30px;
+    margin-right: 5px;
+    color: #4296cb;
+    padding-top: 0px;
+}
+
+.BagData-item h2 span:last-child{
+    font-size: 0.6rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    background: #3cdbb8;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.4rem 0.5rem;
+    border-radius: 4px;
+    vertical-align: super;
+}
+
+.BagData-item ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
+.BagData-item li{
+    margin-top: 10px;
+}
+.BagData-item ul+div{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.BagData-item ul+div>button{
+    width: 90%;
+    padding:12px 0px;
+    background-color: #4296cb;
+    border: 1px solid #4296cb;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+.BagData-item>p{
+    text-align: center;
+    font-weight: 600;
+}
