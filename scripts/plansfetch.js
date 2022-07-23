@@ -55,9 +55,12 @@ let append = (data,container) =>{
 }
 
 function ShowData(element){
+    let footer = document.getElementById("footer")
+    footer.style.width = "1600px"
     let ShowDetailsContainer = document.querySelector("#showBagDataContainer");
     ShowDetailsContainer.style.position = "fixed" ;
-
+    // ShowDetailsContainer.style.backgroundColor = "rgba(0,0,0,0.5)";
+    ShowDetailsContainer.style.display = "block";
     let body = document.querySelector("body");
     body.style.position = "fixed" 
 
