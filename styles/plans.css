@@ -90,7 +90,8 @@ body {
 }
 
 .product-message-card>div>button {
-    width: 52%;
+
+    width: 55%;
     padding: 7px 0px;
     background-color: #4296cb;
     border: 1px solid #4296cb;
