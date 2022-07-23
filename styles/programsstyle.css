@@ -200,13 +200,14 @@ table tbody>tr>td{
     margin-top: 25px;
     margin-bottom: -15px;
     text-align: center;
+
 }
 #features>#box2>#details>.group .btn.-main{
     background: #4296cb;
     border-color: transparent;
     color: #fff;
     text-transform: uppercase;
-    position: relative;
+    /* position: relative; */
 }
 .btn{
     padding: 10px 25px 10px;
@@ -330,7 +331,7 @@ table tbody>tr>td{
     border-color: transparent;
     color: #fff;
     text-transform: uppercase;
-    position: relative;
+    /* position: relative; */
 }
 
 .btnQ{
@@ -432,7 +433,7 @@ table tbody>tr>td{
     border-color: transparent;
     color: #fff;
     text-transform: uppercase;
-    position: relative;
+    /* position: relative; */
 }
 
 .btnM{
@@ -535,7 +536,7 @@ table tbody>tr>td{
     border-color: transparent;
     color: #fff;
     text-transform: uppercase;
-    position: relative;
+    /* position: relative; */
 }
 
 .btnP{
