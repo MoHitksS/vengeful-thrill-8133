@@ -12,6 +12,7 @@ body{
 #blog{
     width: 90%;
     margin: auto;
+    margin-top: 150px;
 }
 #blog>h1{
     font-weight: 500;

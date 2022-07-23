@@ -1,3 +1,7 @@
+import navbar from "../components/navbar.js";
+document.getElementById("navbar").innerHTML = navbar();
+
+
 let user = JSON.parse(localStorage.getItem("users")) || [];
 let flag = JSON.parse(localStorage.getItem("flag")) || false;
 

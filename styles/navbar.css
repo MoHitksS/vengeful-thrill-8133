@@ -7,7 +7,6 @@ body {
   padding: 0px;
   box-sizing: border-box;
   top: 0px;
-  overflow: scroll;
 }
 
 #navbar {
@@ -20,6 +19,7 @@ body {
   position: fixed;
   top: 0%;
   background-color: white;
+  
 }
 
 #navbar_d:hover {

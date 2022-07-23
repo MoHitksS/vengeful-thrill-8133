@@ -9,7 +9,8 @@ body{
     grid-template-rows: repeat(5, 400px);
     justify-content: space-between;
     padding: 30px 20px 10px 20px;
-    gap:10px
+    gap:10px;
+    margin-top: 150px;
 }
 
 #healthrecipes>div{

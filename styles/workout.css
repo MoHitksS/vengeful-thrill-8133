@@ -6,7 +6,7 @@ body{
 *{
     font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 }
-#main{
+.tapri{
     background-color: #222533;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,18 +14,19 @@ body{
     height: 550px;
     color: #fff;
     background-image: url(https://d18zdz9g6n5za7.cloudfront.net/workouts_programs/masthead-workouts-xs.jpg);
+    margin-top: 150px;
 }
-#main>#container{
+.tapri>#container{
     height: 250px;
     padding: 150px 0px 0px 150px;
 }
-#main>#container>#text{
+.tapri>#container>#text{
     color: #4296cb;
     font-weight: 400;
     font-size: 1rem;
     margin-bottom: -20px;
 }
-#main>#container>#heading{
+.tapri>#container>#heading{
     letter-spacing: -0.02em;
     margin-left: -3px;
     font-weight: 300;

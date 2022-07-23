@@ -1,3 +1,6 @@
+import navbar from "../components/navbar.js";
+document.getElementById("navbar").innerHTML = navbar();
+
 let userData = JSON.parse(localStorage.getItem("users"));
 let temp = JSON.parse(localStorage.getItem("temp"));
 window.onload = accountNewLoad();

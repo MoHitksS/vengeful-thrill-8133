@@ -1,3 +1,6 @@
+import navbar from "../components/navbar.js";
+document.getElementById("navbar").innerHTML = navbar();
+
 import { append } from "./expetarticlesfetch.js"
 
 let expartData=[

@@ -134,9 +134,8 @@ body {
 
 }
 
-.material-symbols-outlined{
+p+div .material-symbols-outlined{
     color: #4296cb;
     width: 50px;
     height: 100px;
-    
 }

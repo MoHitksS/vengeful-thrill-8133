@@ -1,3 +1,5 @@
+import navbar from "../components/navbar.js";
+document.getElementById("navbar").innerHTML = navbar();
 let append =(data,cont) =>{
     data.forEach(({img,category,title,subtitle}) => {
         

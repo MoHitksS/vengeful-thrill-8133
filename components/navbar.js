@@ -10,15 +10,12 @@ function navbar() {
     <ul>
       <li>
         <div class="header-menu">
-          <a href="#" class="menu">WORKOUTS<span class="material-symbols-outlined" class="arrow_icon">
+          <a href="./page/workout.html" class="menu">WORKOUTS<span class="material-symbols-outlined" class="arrow_icon">
           arrow_drop_down
         </span> </a>
           <ul class="sub-menu" id="">
-            <li><a href="#" class="menu-content"><i class="icon -workout-videos" aria-hidden="true"></i>
+            <li><a href="./page/workout-videos.html" class="menu-content"><i class="icon -workout-videos" aria-hidden="true"></i>
                 Workout Videos</a></li>
-            <li><a href="#" class="menu-content"><i class="icon -workout-programs" aria-hidden="true"></i></i>Custom
-                Workouts</a></li>
-
           </ul>
         </div>
       </li>
@@ -26,53 +23,46 @@ function navbar() {
 
       <li>
         <div class="header-menu">
-          <a href="#" class="menu">PROGRAMS<span class="material-symbols-outlined" class="arrow_icon">
+          <a href="./page/programs.html" class="menu">PROGRAMS<span class="material-symbols-outlined" class="arrow_icon">
           arrow_drop_down
         </span></a>
           <ul class="sub-menu" id="">
 
-            <li><a href="#" class="menu-content"><i class="icon -workout-videos" aria-hidden="true"></i>
+            <li><a href="./page/workout-plans.html" class="menu-content"><i class="icon -workout-videos" aria-hidden="true"></i>
                 Workout Programs</a></li>
-            <li><a href="#" class="menu-content"><i class="icon -workout-programs" aria-hidden="true"></i></i>Meal
+            <li><a href="./page/meals-plans.html" class="menu-content"><i class="icon -workout-programs" aria-hidden="true"></i></i>Meal
                 Plans</a></li>
 
-            <li><a href="#" class="menu-content"><i class="icon -workout-programs" aria-hidden="true"></i></i>Pilot
+            <li><a href="./page/pilotplans.html" class="menu-content"><i class="icon -workout-programs" aria-hidden="true"></i></i>Pilot
                 Programs</a></li>
-
-            <li><a href="#" class="menu-content"><i class="icon -workout-programs"
-                  aria-hidden="true"></i></i>Routines</a></li>
-
           </ul>
         </div>
       </li>
 
       <li>
         <div class="header-menu">
-          <a href="#" class="menu">HEALTHY LIVING <span class="material-symbols-outlined" class="arrow_icon">
+          <a href="./page/healthliving.html" class="menu">HEALTHY LIVING <span class="material-symbols-outlined" class="arrow_icon">
           arrow_drop_down
         </span></a>
           <ul class="sub-menu" id="">
-            <li><a href="#" class="menu-content"><i class="icon -fitness" aria-hidden="true"></i>Articles</a></li>
-            <li><a href="#" class="menu-content"><i class="icon -health" aria-hidden="true"></i>Healthy
+            <li><a href="./page/expertarticles.html" class="menu-content"><i class="icon -fitness" aria-hidden="true"></i>Expert Articles</a></li>
+            <li><a href="./page/healthrecipes.html" class="menu-content"><i class="icon -health" aria-hidden="true"></i>Healthy
                 Recipes</a></li>
-            <li><a href="#" class="menu-content"><i class="icon -nutrition" aria-hidden="true"></i>Wellness
-                videos</a></li>
-
+            <!-- <li><a href="#" class="menu-content"><i class="icon -nutrition" aria-hidden="true"></i>Wellness
+                videos</a></li> -->
           </ul>
         </div>
       </li>
 
       <li>
         <div class="header-menu">
-          <a href="#" class="menu">COMMUNITY<span class="material-symbols-outlined" class="arrow_icon">
+          <a href="./page/blog.html" class="menu">COMMUNITY<span class="material-symbols-outlined" class="arrow_icon">
           arrow_drop_down
         </span></a>
           <ul class="sub-menu" id="">
-            <li><a href="#" class="menu-content"><i class="icon -community" aria-hidden="true"></i>Community</a>
+            <li><a href="./page/blog.html" class="menu-content"><i class="icon -community" aria-hidden="true"></i>Community</a>
             </li>
-            <li><a href="#" class="menu-content"><i class="icon -blog" aria-hidden="true"></i>Blog</a>
-            </li>
-            <li><a href="#" class="menu-content"><i class="icon -blog" aria-hidden="true"></i>What's New</a>
+            <li><a href="./page/blog.html" class="menu-content"><i class="icon -blog" aria-hidden="true"></i>Blog</a>
             </li>
           </ul>
         </div>
@@ -84,13 +74,13 @@ function navbar() {
           arrow_drop_down
         </span></a>
           <ul class="sub-menu" id="">
-            <li><a href="#" class="menu-content"><i class="icon -blog" aria-hidden="true"></i>ABOUT</a>
+            <li><a href="./page/aboutpage.html" class="menu-content"><i class="icon -blog" aria-hidden="true"></i>ABOUT</a>
             </li>
-            <li><a href="#" class="menu-content"><i class="icon -community" aria-hidden="true"></i>CAREERS</a>
+            <li><a href="./page/aboutpage.html" class="menu-content"><i class="icon -community" aria-hidden="true"></i>CAREERS</a>
             </li>
-            <li><a href="#" class="menu-content"><i class="icon -blog" aria-hidden="true"></i>TUTORIALS</a>
+            <li><a href="./page/tutorials.html" class="menu-content"><i class="icon -blog" aria-hidden="true"></i>TUTORIALS</a>
             </li>
-            <li><a href="#" class="menu-content"><i class="icon -blog" aria-hidden="true"></i>OUR TEAMS</a>
+            <li><a href="./page/aboutpage.html" class="menu-content"><i class="icon -blog" aria-hidden="true"></i>OUR TEAMS</a>
             </li>
 
           </ul>
@@ -99,13 +89,13 @@ function navbar() {
 
       <li>
         <div class="header-menu">
-          <a href="#" class="menu">STORE</a>
+          <a href="./page/store.html" class="menu">STORE</a>
         </div>
       </li>
 
       <li>
         <div class="header-menu">
-          <a href="#" class="menu" id="nav_member">MEMBERSHIP</a>
+          <a href="./page/membership.html" class="menu" id="nav_member">MEMBERSHIP</a>
         </div>
       </li>
     </ul>
@@ -131,8 +121,8 @@ function navbar() {
                         <p>Join for free and start building and tracking your workouts, get support from other
                             Fitness
                             Blender members and more!</p>
-                        <li><a href="./static/login.html"><button class="login-btn" id="login_btn_join">JOIN</button></a></li>
-                        <li><a href="./static/signIn.html"><button class="login-btn" id="login_btn_sign">SIGN IN</button></a></li>
+                        <li><a href="./page/login.html"><button class="login-btn" id="login_btn_join">JOIN</button></a></li>
+                        <li><a href="./page/signup.html"><button class="login-btn" id="login_btn_sign">SIGN IN</button></a></li>
                        
                     </ul>
 
@@ -153,7 +143,7 @@ function navbar() {
         shopping_bag
       </span>
     </div>
-    <div id="bag_item">5</div>
+    <div id="bag_item"></div>
 
   </div>
 </div>`;
