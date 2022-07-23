@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/accountnew.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Account</title>
+</head>
+
+<body onload="accountNewLoad()">
+    <div id="account-new">
+        <header>
+            <div id="account-new-top">
+                <h1>You're Almost Done!</h1>
+                <p>Review and submit the form below to complete your Fitness Blender profile.</p>
+            </div>
+        </header>
+
+        <div id="account-new-form">
+            <form id="account-new-form-section">
+                <div id="account-new-form-left">
+                    <h3>Review Your Member Profile Details</h3>
+                    <label>First Name</label>
+                    <input type="text" id="FirstName" placeholder="First Name">
+                    <label>Last Name</label>
+                    <input type="text" id="LastName" placeholder="Last Name">
+                    <label>Display Name</label>
+                    <input type="text" id="Username" placeholder="Display Name">
+                    <label>Email</label>
+                    <input type="text" id="Email" placeholder="Email">
+                    <label>Start Week On</label>
+                    <select id="StartWeekOn">
+                        <option value="Sunday">Sunday</option>
+                        <option value="Monday">Monday</option>
+                    </select>
+
+                    <label>Workout Complete Effects</label>
+                    <select id="WorkoutCompleteEffects">
+                        <option value="Show pop-up and confetti">Show pop-up and confetti</option>
+                        <option value="Show pop-up without confetti">Show pop-up without confetti</option>
+                        <option value="Do not show pop-up">Do not show pop-up</option>
+                    </select>
+
+                    <label>Display Calorie Burn Estimates</label>
+                    <select id="DisplayCalorieBurnEstimates">
+                        <option value="Show expanded">Show expanded</option>
+                        <option value="Keep hidden">Keep hidden</option>
+                    </select>
+
+                    <div id="subscribe">
+                        <input type="checkbox">
+                        <p>Receive Fitness Blender news and updates</p>
+                    </div>
+
+                    <div id="createAccount">
+                        <button>Create Account</button>
+                    </div>
+                </div>
+                <div id="account-new-form-right">
+                    <p>Member Profile Image</p>
+                    <div>
+                        <span><span class="material-symbols-outlined">
+                                photo_camera_front
+                            </span></span>
+                    </div>
+                    <p>File size should not exceed 5MB.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="scripts/accountnew.js"></script>
