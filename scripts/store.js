@@ -1,5 +1,7 @@
 import navbar from "../components/navbar.js";
 document.getElementById("navbar").innerHTML = navbar();
+import footer from "../components/footer.js"
+document.getElementById("footer").innerHTML = footer();
 
 let movies = [
   {
@@ -133,3 +135,16 @@ function display() {
   });
 }
 display();
+
+
+document.getElementById("program").onclick = () =>{
+  window.location.href = "../page/programs.html"
+}
+
+document.getElementById("meals").onclick = () =>{
+  window.location.href = "../page/meals-plans.html"
+}
+
+document.getElementById("fb").onclick = () =>{
+  window.location.href = "../page/store.html"
+}

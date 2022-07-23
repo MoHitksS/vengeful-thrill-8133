@@ -3,11 +3,23 @@
 *{
   font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 }
+body{
+  margin: 0px;
+  padding: 0px;
 
-#bigdiv {
   background-color: rgb(224, 236, 241);
+}
+#container{
+  width: 100%;
+  margin: auto;
+  margin: auto;
+  margin-top: 160px;
+}
+#bigdiv {
+  width: 80%;
   height: 800px;
   margin-top: 160px;
+  margin: auto;
 }
 #subdiv {
   margin-left: 200px;
@@ -59,6 +71,7 @@
   margin-left: 190px;
   border-radius: 5px;
   transform: translateY(-40px);
+  z-index: 0;
 }
 
 #btnbag1:hover {
@@ -66,10 +79,12 @@
 }
 #var {
   /* border: 1px solid red; */
+  width: 80%;
   margin-top: -30px;
   padding: 20px;
   height: 800px;
   background-color: rgb(224, 236, 241);
+  margin: auto;
 }
 #var h1 {
   margin-left: 30px;
@@ -110,8 +125,9 @@
 #tshirt {
   /* border: 1px solid red; */
   height: 600px;
-  width: 100%;
+  width: 80%;
   display: flex;
+  margin: auto;
 }
 #golu {
   /* border: 1px solid green; */
