@@ -15,7 +15,7 @@ let append =(data,cont) =>{
         sub.innerText=subtitle
 
         let div=document.createElement("div");
-
+        div.setAttribute("class","hoverEffect")
         div.append(image,catg,tit,sub)
         cont.append(div)
     });
