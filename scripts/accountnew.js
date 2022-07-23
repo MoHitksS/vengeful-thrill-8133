@@ -68,6 +68,7 @@ class User{
             localStorage.setItem("temp", JSON.stringify(this));
             localStorage.setItem("users", JSON.stringify(userData));
             alert("Account created Successfully")
+            window.location.href = "../page/login.html";
         }else{
             alert("Please Enter Your Registered Email")
         }

@@ -20,6 +20,7 @@ body {
   top: 0%;
   background-color: white;
   z-index: 1;
+  border-bottom: 0.5px solid rgb(243, 240, 240);
 }
 
 #navbar_d:hover {

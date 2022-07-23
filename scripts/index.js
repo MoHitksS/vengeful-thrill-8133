@@ -6,8 +6,8 @@ document.querySelector("#navbar").innerHTML=navbar();
 
 import {checkLogin} from "../scripts/sigin.js"
 checkLogin();
-
-
+let flag = JSON.parse(localStorage.getItem("flag")) || false;
+let temp = JSON.parse(localStorage.getItem("temp")) || [];
 
 let WorkoutPlansData =[
     {
@@ -46,5 +46,11 @@ function workoutPlans(workoutData){
     append(workoutData,container)
 }
 workoutPlans(WorkoutPlansData);
+
+if(flag == true){
+    document.querySelector("#join_left>h2").innerText = temp[0].username;
+    document.querySelector("#join_left>h2+p").innerText = "Your free membership gives you access to hundreds of videos, articles, and recipes as well as a positive and supportive community to help you reach and maintain your fitness and wellness goals."
+    document.querySelector("#join_now").remove()
+}
 
 
