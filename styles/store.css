@@ -1,0 +1,201 @@
+#bigdiv {
+  background-color: rgb(224, 236, 241);
+  height: 800px;
+}
+#subdiv {
+  margin-left: 200px;
+  margin-top: 40px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+#subdiv1 {
+  width: 1100px;
+  margin-left: 200px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+#subdiv2 {
+  margin-left: 200px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#movies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 300px);
+}
+#movies img {
+  width: 90%;
+  height: 55%;
+  margin-left: 10px;
+}
+#movies {
+  height: 600px;
+  margin-top: 50px;
+}
+#movies h2 {
+  margin-left: 20px;
+}
+#movies p {
+  margin-left: 20px;
+}
+#movies sub {
+  font-size: 10px;
+  margin-left: 20px;
+  color: gray;
+}
+#btnbag1 {
+  background-color: rgb(15, 177, 241);
+  border: 0;
+  color: white;
+  width: 90px;
+  height: 32px;
+  margin-left: 190px;
+  border-radius: 5px;
+  transform: translateY(-40px);
+}
+
+#btnbag1:hover {
+  background-color: rgb(109, 211, 251);
+}
+#var {
+  /* border: 1px solid red; */
+  margin-top: -30px;
+  padding: 20px;
+  height: 800px;
+  background-color: rgb(224, 236, 241);
+}
+#var h1 {
+  margin-left: 30px;
+}
+#var p {
+  margin-left: 30px;
+}
+
+#movies2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 300px);
+}
+#movies2 img {
+  width: 90%;
+  height: 45%;
+  margin-left: 10px;
+}
+#movies2 {
+  height: 600px;
+}
+#movies2 h2 {
+  margin-left: 17px;
+}
+#btnbag {
+  background-color: rgb(15, 177, 241);
+  border: 0px;
+  width: 90px;
+  height: 32px;
+  border-radius: 5px;
+  margin-left: 200px;
+  transform: translateY(-50px);
+  color: white;
+}
+#btnbag:hover {
+  background-color: rgb(109, 211, 251);
+}
+#tshirt {
+  /* border: 1px solid red; */
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+#golu {
+  /* border: 1px solid green; */
+  width: 50%;
+}
+#molu {
+  /* border: 1px solid orange; */
+  width: 50%;
+}
+img {
+  height: 600px;
+  width: 600px;
+}
+#varsha {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+}
+#varsha2 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  color: rgb(125, 123, 123);
+}
+#varsha3 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  color: rgb(125, 123, 123);
+}
+#varsha4 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  color: rgb(125, 123, 123);
+}
+#varsha5 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  color: blue;
+}
+#bluediv {
+  /* border: 1px solid red; */
+  background-color: rgb(202, 229, 240);
+  height: 250px;
+  width: 100%;
+  text-align: center;
+}
+#blue {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+#blur {
+  color: rgb(91, 90, 90);
+}
+#box {
+  /* border: 1px solid orange; */
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#box1 {
+  /* border: 1px solid green; */
+  width: 250px;
+  height: 50px;
+  margin-right: 40px;
+  background-color: rgb(10, 109, 148);
+  color: white;
+  border-radius: 9px;
+}
+#box1:hover {
+  background-color: rgb(109, 211, 251);
+}
+
+#box2 {
+  /* border: 1px solid green; */
+  width: 250px;
+  height: 50px;
+  background-color: rgb(10, 109, 148);
+  color: white;
+  border-radius: 9px;
+}
+#box2:hover {
+  background-color: rgb(109, 211, 251);
+}
+#box3 {
+  /* border: 1px solid green; */
+  width: 250px;
+  height: 50px;
+  margin-left: 20px;
+  background-color: rgb(10, 109, 148);
+  color: white;
+  border-radius: 9px;
+}
+#box3:hover {
+  background-color: rgb(109, 211, 251);
+}
