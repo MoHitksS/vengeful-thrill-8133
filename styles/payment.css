@@ -1,0 +1,134 @@
+.height-100 {
+    height: 100vh
+}
+
+.card {
+    width: 400px;
+    border: none;
+    height: 300px;
+    box-shadow: 0px 5px 20px 0px #d2dae3;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card h6 {
+    color: #238dc1;
+    font-size: 20px
+}
+
+.inputs input {
+    width: 40px;
+    height: 40px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0
+}
+
+.card-2 {
+    background-color: #fff;
+    padding: 10px;
+    width: 350px;
+    height: 100px;
+    bottom: -50px;
+    left: 20px;
+    position: absolute;
+    border-radius: 5px
+}
+
+.card-2 .content {
+    margin-top: 50px
+}
+
+.card-2 .content a {
+    color: #238dc1;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #238dc1;
+}
+
+.validate {
+    border-radius: 20px;
+    height: 40px;
+    background-color: #238dc1;
+    border: 1px solid #238dc1;
+    width: 140px
+}
+
+body
+    {
+        background:#f2f2f2;
+    }
+
+    #paymentContainer{
+       visibility: hidden;
+    }
+    .payment
+	{
+		border:1px solid #f2f2f2;
+		height:280px;
+        border-radius:20px;
+        background:#fff;
+	}
+   .payment_header
+   {
+	   background:#238dc1;
+	   padding:20px;
+       border-radius:20px 20px 0px 0px;
+	   
+   }
+   
+   .check
+   {
+	   margin:0px auto;
+	   width:50px;
+	   height:50px;
+	   border-radius:100%;
+	   background:#fff;
+	   text-align:center;
+   }
+   
+   .check i
+   {
+	   vertical-align:middle;
+	   line-height:50px;
+	   font-size:30px;
+   }
+
+    .content 
+    {
+        text-align:center;
+    }
+
+    .content  h1
+    {
+        font-size:25px;
+        padding-top:25px;
+    }
+
+    .content a
+    {
+        width:200px;
+        height:35px;
+        color:#fff;
+        border-radius:30px;
+        padding:5px 10px;
+        background:#238dc1;
+        transition:all ease-in-out 0.3s;
+    }
+
+    .content a:hover
+    {
+        text-decoration:none;
+        background:#000;
+    }
+   
