@@ -6,6 +6,9 @@ import { append } from "./healthrecipesfetch.js";
 import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer();
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
+
 let healthrecipesData=[
     {
         img:"https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1192-turkey-burger-mini-melt-bc6d.jpg",

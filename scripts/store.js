@@ -3,39 +3,42 @@ document.getElementById("navbar").innerHTML = navbar();
 import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer();
 
+import { checkLogin } from "../scripts/sigin.js"
+checkLogin();
+
 let movies = [
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-16-1-day-pass-a272.jpg",
-    price: "$1.99",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-16-1-day-pass-a272.jpg",
+    price: "1.99",
     date: "1-Day pass",
     button: "Add to Bag",
     pass: "FB PLUS PASS",
   },
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-15-7-day-pass-8070.jpg",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-15-7-day-pass-8070.jpg",
     date: "7-Day pass",
-    price: "$3.99",
+    price: "3.99",
     button: "Add to Bag",
     pass: "FB PLUS PASS",
   },
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-14-14-day-pass-b885.jpg",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-14-14-day-pass-b885.jpg",
     date: "$14-Day pass",
     price: "7.99",
     button: "Add to Bag",
     pass: "FB PLUS PASS",
   },
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-13-30-day-pass-9318.jpg",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-13-30-day-pass-9318.jpg",
     date: "30-Day pass",
-    price: "$11.99",
+    price: "11.99",
     button: "Add to Bag",
     pass: "FB PLUS PASS",
   },
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-12-90-day-pass-89f6.jpg",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-12-90-day-pass-89f6.jpg",
     date: "90-Day pass",
-    price: "$29.99",
+    price: "29.99",
     button: "Add to Bag",
     pass: "FB PLUS PASS",
   },
@@ -58,10 +61,16 @@ function displaydata() {
     let btn = document.createElement("button");
     btn.innerText = el.button;
     btn.setAttribute("id", "btnbag1");
+    btn.onclick = () => {
+      console.log("hello");
+      cartData.push(el);
+      localStorage.setItem("cartData", JSON.stringify(cartData));
+      window.location.href = "../page/cart.html"
+    }
 
-    poster.src = el.url;
+    poster.src = el.img;
     p.innerText = el.date;
-    p1.innerText = el.price;
+    p1.innerText = `${el.price}`;
     div.append(poster, sub, p, p1, btn);
     document.querySelector("#movies").append(div);
   });
@@ -72,49 +81,49 @@ displaydata();
 
 let movies2 = [
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-1-10-egift-card-84c3.jpg",
-    price: "$10.00",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-1-10-egift-card-84c3.jpg",
+    price: "10.00",
     button: "Add To Bag",
   },
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-2-20-egift-card-a464.jpg",
-    price: "$20.00",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-2-20-egift-card-a464.jpg",
+    price: "20.00",
     button: "Add To Bag",
   },
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-3-30-egift-card-a760.jpg",
-    price: "$30.00",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-3-30-egift-card-a760.jpg",
+    price: "30.00",
     button: "Add To Bag",
   },
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-4-40-egift-card-a504.jpg",
-    price: "$40.00",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-4-40-egift-card-a504.jpg",
+    price: "40.00",
     button: "Add To Bag",
   },
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-5-50-egift-card-8e17.jpg",
-    price: "$50.00",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-5-50-egift-card-8e17.jpg",
+    price: "50.00",
     button: "Add To Bag",
   },
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-6-75-egift-card-b723.jpg",
-    price: "$75.00",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-6-75-egift-card-b723.jpg",
+    price: "75.00",
     button: "Add To Bag",
   },
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-8-7999-egift-card-limited-bece.jpg",
-    price: "$79.00",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-8-7999-egift-card-limited-bece.jpg",
+    price: "79.00",
     button: "Add To Bag",
   },
   {
-    url: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-7-100-egift-card-8673.jpg",
-    price: "$100.00",
+    img: "https://d18zdz9g6n5za7.cloudfront.net/products/320/320-7-100-egift-card-8673.jpg",
+    price: "100.00",
     button: "Add To Bag",
   },
 ];
 
 // localStorage.setItem("movies2", JSON.stringify(movies2))
-
+let cartData = JSON.parse(localStorage.getItem("cartData")) || [];
 let div1 = document.createElement("div1");
 let img1 = document.createElement("img1");
 
@@ -127,9 +136,14 @@ function display() {
     let btn = document.createElement("button");
     btn.innerText = el.button;
     btn.setAttribute("id", "btnbag");
+    btn.onclick = () => {
+      cartData.push(el);
+      localStorage.setItem("cartData", JSON.stringify(cartData));
+      window.location.href = "../page/cart.html"
+    }
 
-    poster.src = el.url;
-    p.innerText = el.price;
+    poster.src = el.img;
+    p.innerText = `${el.price}`;
     div1.append(poster, p, btn);
     document.querySelector("#movies2").append(div1);
   });
@@ -137,14 +151,14 @@ function display() {
 display();
 
 
-document.getElementById("program").onclick = () =>{
+document.getElementById("program").onclick = () => {
   window.location.href = "../page/programs.html"
 }
 
-document.getElementById("meals").onclick = () =>{
+document.getElementById("meals").onclick = () => {
   window.location.href = "../page/meals-plans.html"
 }
 
-document.getElementById("fb").onclick = () =>{
+document.getElementById("fb").onclick = () => {
   window.location.href = "../page/store.html"
 }

@@ -6,6 +6,9 @@ document.getElementById("footer").innerHTML = footer();
 
 import {append} from "./plansfetch.js"
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
+
 let WorkoutPlansData =[
     {
         img:"https://d18zdz9g6n5za7.cloudfront.net/plan/800/800-7776-4-week-fb-benchmark-program-total-body-strength-and-conditioning-826d.jpg",

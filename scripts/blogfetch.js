@@ -1,6 +1,8 @@
 import navbar from "../components/navbar.js";
 document.getElementById("navbar").innerHTML = navbar();
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
 let appendright =(data,cont) =>{
     data.forEach(({img,title,date,content}) => {
       

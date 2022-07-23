@@ -6,6 +6,9 @@ import { append } from "./expetarticlesfetch.js"
 import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer();
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
+
 let expartData=[
     {
         img:"https://d18zdz9g6n5za7.cloudfront.net/blog/640/640-1252-how-often-should-you-meditate-8e59.jpg",

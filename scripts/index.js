@@ -1,11 +1,11 @@
 import footer from "../components/footer.js";
 import navbar from "../components/navbar.js";
 import {append} from "./indexfetch.js";
-
-
 document.querySelector("#footer").innerHTML=footer();
 document.querySelector("#navbar").innerHTML=navbar();
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
 
 
 

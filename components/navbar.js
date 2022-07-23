@@ -117,12 +117,12 @@ function navbar() {
                             </span> </div>
                     </a>
                     <ul class="login" id="join_free">
-                        <p>JOIN FOR FREE!</p>
+                        <p id ="status">JOIN FOR FREE!</p>
                         <p>Join for free and start building and tracking your workouts, get support from other
                             Fitness
                             Blender members and more!</p>
-                        <li><a href="../page/login.html"><button class="login-btn" id="login_btn_join">JOIN</button></a></li>
-                        <li><a href="../page/signup.html"><button class="login-btn" id="login_btn_sign">SIGN IN</button></a></li>
+                        <li class = "remove"><a href="../page/signup.html"><button class="login-btn" id="login_btn_join">JOIN</button></a></li>
+                        <li class = "remove"><a href="../page/login.html"><button class="login-btn" id="login_btn_sign">SIGN IN</button></a></li>
                        
                     </ul>
 

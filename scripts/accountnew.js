@@ -4,6 +4,9 @@ document.getElementById("navbar").innerHTML = navbar();
 import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer();
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
+
 let userData = JSON.parse(localStorage.getItem("users"));
 let temp = JSON.parse(localStorage.getItem("temp"));
 window.onload = accountNewLoad();

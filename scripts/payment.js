@@ -1,8 +1,5 @@
-import navbar from "../components/navbar.js";
-document.getElementById("navbar").innerHTML = navbar();
 
 window.onload = payment();
-
 function payment(){
     alert("Your OTP IS 123456");
     document.getElementById("checkOTP").onclick = () =>{

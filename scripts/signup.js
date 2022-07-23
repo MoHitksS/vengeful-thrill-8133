@@ -3,8 +3,11 @@ document.getElementById("navbar").innerHTML = navbar();
 
 import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer();
-
+let flag = JSON.parse(localStorage.getItem("flag")) || false;
 let user = JSON.parse(localStorage.getItem("users")) || [];
+if(flag == true){
+    window.location.href = "../index.html"
+}
 window.onload = signupLoad();
 function signupLoad(){
     let signupFunc = document.querySelector("#signup-buttons");

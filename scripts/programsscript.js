@@ -2,9 +2,10 @@ import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer();
 
 import navbar from "../components/navbar.js";
-
-
 document.getElementById("navbar").innerHTML = navbar();
+
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
 
 let arr=["Work out with research-backed programs designed by Certified Personal Trainers (CPTs).","Follow expertly-curated combinations of workouts from our free video library.","Take the guesswork out of planning routines and picking workouts.","Focus your exercise time with proper structure for more effective results.","Learn to modify individual exercises to accommodate virtually any fitness level.","Improve overall health and functional fitness.","Schedule and track progress via the FB Calendar.","Review each day's objectives and workout details.","Complete as many times as you like.","Get additional tips and information with a detailed program and nutrition guide."]
 let tbody=document.querySelector("tbody");

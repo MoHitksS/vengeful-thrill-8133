@@ -4,6 +4,9 @@ document.getElementById("navbar").innerHTML = navbar();
 import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer();
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
+
 let cartData = JSON.parse(localStorage.getItem("cartData"))
 let total = 0;
 
@@ -32,7 +35,7 @@ function showCheckoutdata(){
         let productPrice = document.createElement("p");
         productPrice.innerText = `$${element.price}`;
         total += +(element.price)
-        document.getElementById("TotalPrice-checkout").innerText = `$${total}` 
+        document.getElementById("TotalPrice-checkout").innerText = `$${total.toFixed(2)}` 
         rightDiv.append(productPrice);
 
         dataDiv.append(leftDiv,rightDiv)

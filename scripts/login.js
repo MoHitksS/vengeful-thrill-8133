@@ -4,6 +4,9 @@ document.getElementById("navbar").innerHTML = navbar();
 import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer();
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
+
 
 let user = JSON.parse(localStorage.getItem("users")) || [];
 let flag = JSON.parse(localStorage.getItem("flag")) || false;
@@ -21,12 +24,20 @@ let login = () => {
     event.preventDefault();
     let username = document.getElementById("loginusername").value;
     let password = document.getElementById("loginpassword").value;
+    let robot = document.getElementById("loginRecaptcha").checked;
 
-    if (username !== "" && password !== "") {
+    if (username !== "" && password !== "" && robot !== false) {
         let l1 = new LoginUser();
         l1.CheckUser(username, password)
     } else {
-        alert("Fill All The Details")
+        if(username !== "" && password !== ""){
+            if(robot == false){
+                alert("Please Verify Your Are Not A Robot")
+            }else{
+
+                alert("Fill All The Details")
+            }
+        }
     }
 
 }
@@ -47,7 +58,7 @@ class LoginUser {
             alert("Wrong credentials")
         } else if (isValidate) {
             alert("Login successful!")
-            window.location.href = "index.html";
+            window.location = "../index.html";
         }
     }
 

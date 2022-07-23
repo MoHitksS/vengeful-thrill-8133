@@ -6,6 +6,9 @@ document.getElementById("footer").innerHTML = footer();
 
 import {append} from "./plansfetch.js"
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
+
 let PiotPlansData =[
     {
         img:"https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-7428-2-week-stress-reduction-challenge-b957.jpg",

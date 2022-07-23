@@ -3,6 +3,9 @@ document.getElementById("navbar").innerHTML = navbar();
 
 import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer();
+
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
 let data = [
     {
         heading: "Finding the Right Workout",

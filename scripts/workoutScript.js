@@ -6,7 +6,8 @@ document.getElementById("footer").innerHTML = footer();
 
 import {append} from "./workoutFetch.js";
 
-
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
 let newestFree=[
     {
         img:"https://d18zdz9g6n5za7.cloudfront.net/video/800/800-1068-upper-body-strength-supersets-with-cardio-interval-burnouts-8001.jpg",

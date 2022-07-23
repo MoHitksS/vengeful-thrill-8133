@@ -1,6 +1,8 @@
 import navbar from "../components/navbar.js";
 document.getElementById("navbar").innerHTML = navbar();
 
+
+
 let cartData = JSON.parse(localStorage.getItem("cartData")) || [];
 
 let append = (data,container) =>{
@@ -59,7 +61,6 @@ function ShowData(element){
     footer.style.width = "1600px"
     let ShowDetailsContainer = document.querySelector("#showBagDataContainer");
     ShowDetailsContainer.style.position = "fixed" ;
-    // ShowDetailsContainer.style.backgroundColor = "rgba(0,0,0,0.5)";
     ShowDetailsContainer.style.display = "block";
     let body = document.querySelector("body");
     body.style.position = "fixed" 

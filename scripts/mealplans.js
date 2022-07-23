@@ -6,6 +6,9 @@ document.getElementById("footer").innerHTML = footer();
 
 import {append} from "./plansfetch.js"
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
+
 let MealsPlansData =[
     {
         img:"https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-7738-meals-under-30-minutes-meal-plan-for-busy-people-a32a.jpg",

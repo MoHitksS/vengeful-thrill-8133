@@ -6,6 +6,9 @@ import {append} from "./healthlivingfetch.js"
 import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer();
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
+
 
 let fitnessData=[
     {

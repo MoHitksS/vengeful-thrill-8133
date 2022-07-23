@@ -4,9 +4,13 @@ document.getElementById("navbar").innerHTML = navbar();
 import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer();
 
+import {checkLogin} from "../scripts/sigin.js"
+checkLogin();
+
+let flag = JSON.parse(localStorage.getItem("flag")) || false;
 let cartData = JSON.parse(localStorage.getItem("cartData"))
 let total = 0;
-
+console.log(cartData);
 window.onload = showBagdata()
 
 function showBagdata(){
@@ -48,7 +52,7 @@ function showBagdata(){
         let productPrice = document.createElement("p");
         productPrice.innerText = `$${element.price}`;
         total += +(element.price)
-        document.getElementById("TotalPrice-cart").innerText = `$${total}` 
+        document.getElementById("TotalPrice-cart").innerText = `$${total.toFixed(2)}` 
         rightDiv.append(productPrice);
 
         dataDiv.append(leftDiv,centerDiv,rightDiv)
@@ -60,4 +64,15 @@ function RemoveDataCart(element,index){
     cartData.splice(index,1);
     localStorage.setItem("cartData",JSON.stringify(cartData));
     window.location.reload()
+}
+
+document.getElementById("Checkout").onclick = () =>{
+    console.log("hello");
+    event.preventDefault()
+    if(flag == true){
+        window.location.href = "../page/checkout.html"
+    }else{
+        alert("Please Login First")
+        window.location.href = "../page/login.html"
+    }
 }
