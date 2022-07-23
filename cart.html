@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Cart</title>
+</head>
+<body onload="showBagdata()">
+    <div id="navbar"></div>
+    <div id="cart-section">
+        <div id="header-cart-section">
+            <div id="header-cart-heading">
+                <p>Shopping Bag</p>
+            </div>
+        </div>
+
+        <div id="cart-data-section">
+            <div id="cart-data-box">
+                <div id="cart-data-header">
+                    <div>ITEM</div>
+                    <div>REMOVE</div>
+                    <div>PRICE</div>
+                </div>
+                <div id="cart-data-add"></div>
+                <div id="cart-data-addtotal">
+                    <div>Order Total:</div>
+                    <div  id="TotalPrice-cart"></div>
+                </div>
+                <div id="cart-data-payment">
+                    <div> <a href="workout-plans.html"><button>Continue Shopping</button></a></div>
+                    <div> <a href="checkout.html"><button>proceed to checkout</button></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="./scripts/cart.js" type="module"></script>

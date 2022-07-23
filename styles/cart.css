@@ -1,0 +1,176 @@
+* {
+    font-family: "Maison Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header-cart-section {
+    width: 100%;
+}
+
+#header-cart-heading {
+    width: 75%;
+    height: 120px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    font-size: 40px;
+    background-color: white;
+
+}
+
+#cart-data-section {
+    width: 100%;
+    background-color: #f0f4f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#cart-data-box {
+    width: 78%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    background-color: white;
+}
+
+#cart-data-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(227, 225, 225);
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(90, 88, 88);
+}
+
+#cart-data-header div:first-child {
+    width: 60%;
+    padding: 25px;
+}
+
+#cart-data-header div:nth-child(2) {
+    width: 30%;
+    padding: 25px;
+}
+
+#cart-data-header div:last-child {
+    width: 5%;
+    padding: 25px;
+}
+
+.cart-data-add {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid rgb(227, 225, 225);
+}
+
+.cart-imagediv {
+    width: 150px;
+    height: 150px;
+}
+
+.cart-imagediv img {
+    width: 100%;
+}
+
+.cart-leftdiv {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cart-centerDiv {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-rightDiv {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-weight: 700;
+}
+
+#cart-data-addtotal,
+#cart-data-payment {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    border-bottom: 3px solid rgb(227, 225, 225);
+}
+
+#cart-data-addtotal>div:first-child,
+#cart-data-payment div:first-child {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#cart-data-addtotal>div:last-child,
+#cart-data-payment div:last-child {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+}
+
+#cart-data-payment div:first-child button {
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid #4296cb;
+    background-color: transparent;
+    color: #4296cb;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+#cart-data-payment div:last-child button {
+    width: 100%;
+    padding: 25px 50px;
+    border: 1px solid #4296cb;
+    background-color: #4296cb;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+#cart-data-payment div:last-child button a{
+    text-decoration: none;
+    color: white;
+}
+
+#cart-data-payment div:first-child button a{
+    text-decoration: none;
+    color: #4296cb;
+}
