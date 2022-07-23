@@ -1,7 +1,10 @@
 import navbar from "../components/navbar.js";
 document.getElementById("navbar").innerHTML = navbar();
 
-import { append } from "./healthrecipesfetch.js"
+import { append } from "./healthrecipesfetch.js";
+
+import footer from "../components/footer.js"
+document.getElementById("footer").innerHTML = footer();
 
 let healthrecipesData=[
     {

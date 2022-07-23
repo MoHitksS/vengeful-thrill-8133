@@ -3,6 +3,9 @@ document.getElementById("navbar").innerHTML = navbar();
 
 import {append} from "./healthlivingfetch.js"
 
+import footer from "../components/footer.js"
+document.getElementById("footer").innerHTML = footer();
+
 
 let fitnessData=[
     {
