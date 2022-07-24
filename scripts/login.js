@@ -65,7 +65,6 @@ class LoginUser {
     userusername(username) {
         let check = false
         user.forEach(element => {
-            console.log(element);
             if (username === element.username) {
                 check = true;
             }
@@ -97,4 +96,8 @@ class LoginUser {
         localStorage.setItem("flag", JSON.stringify(flag));
         return check;
     }
+}
+
+if(flag == true){
+    window.location = "../index.html";
 }

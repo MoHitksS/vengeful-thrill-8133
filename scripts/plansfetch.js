@@ -6,7 +6,6 @@ document.getElementById("navbar").innerHTML = navbar();
 let cartData = JSON.parse(localStorage.getItem("cartData")) || [];
 
 let append = (data,container) =>{
-    console.log(data);
     data.forEach(element => {
         let card = document.createElement("div");
         card.setAttribute("class", "plans-card")
@@ -129,7 +128,6 @@ function ShowData(element){
     ShowDetailsBagData.append(ShowDetails)
     cartData.push(element)
     localStorage.setItem("cartData",JSON.stringify(cartData))
-    console.log(cartData);
 }
 
 export {append}

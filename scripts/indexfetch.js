@@ -15,24 +15,28 @@ let append = (data, container) => {
     let img = document.createElement("img");
     img.src = element.img;
     imgBox.append(img);
+
     let contentDetails = document.createElement("div");
     let programTime = document.createElement("p");
     programTime.innerText = element.timing;
+
     let programTitle = document.createElement("h3");
     programTitle.innerText = element.title;
     contentDetails.append(programTime, programTitle);
+
     let productMessage = document.createElement("div");
     productMessage.setAttribute("class", "product-message-card");
-    // let productMsg = document.createElement("p");
-    // productMsg.innerText = "As Low As";
+
     let productBag = document.createElement("div");
     let productPrice = document.createElement("p");
     productPrice.innerText = `$${element.price}`;
     productBag.append(productPrice);
-    productMessage.append( productBag);
+    
+    productMessage.append(productBag);
+
     card.append(imgBox, contentDetails, productMessage);
-    mainbox.append(card_head,card)
+    mainbox.append(card_head, card)
     container.append(mainbox);
   });
 };
-export  { append };
+export { append };

@@ -12,6 +12,7 @@ body {
 #account-new {
     width: 100%;
     margin: auto;
+    margin-top: 150px;
 }
 
 #account-new header,
@@ -138,4 +139,68 @@ p+div .material-symbols-outlined{
     color: #4296cb;
     width: 50px;
     height: 100px;
+}
+
+#login-recaptcha{
+    width:60%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid #d1d1d1;
+    border-radius: 4px;
+}
+
+#login-recaptcha>div:first-child{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#login-recaptcha>div:first-child input{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#login-recaptcha>div:last-child{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#login-recaptcha>div:last-child img{
+    width:30%;
+}
+
+#login-recaptcha>div:last-child>p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #999494;
+}
+
+#login-recaptcha>div:last-child>img+p{
+    font-size:x-small;
+    margin-top: 3%;
+}
+
+#login-recaptcha>div:last-child>p:last-child{
+    font-size: 8px
+}
+#msg{
+    height: 200px;
+}
+
+#topdedomerko{
+    margin-top: 30px;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+}
+
+.topdo{
+    margin-top: 1500px;
 }

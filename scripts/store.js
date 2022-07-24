@@ -62,7 +62,6 @@ function displaydata() {
     btn.innerText = el.button;
     btn.setAttribute("id", "btnbag1");
     btn.onclick = () => {
-      console.log("hello");
       cartData.push(el);
       localStorage.setItem("cartData", JSON.stringify(cartData));
       window.location.href = "../page/cart.html"

@@ -5,8 +5,6 @@ import {checkLogin} from "../scripts/sigin.js"
 checkLogin();
 let appendright =(data,cont) =>{
     data.forEach(({img,title,date,content}) => {
-      
-       console.log(data)
 
         let image=document.createElement("img");
         image.src=img;
@@ -32,8 +30,6 @@ let appendright =(data,cont) =>{
 
 let appendleft=(data,cont) => {
     data.forEach(({img,category,title,content}) => {
-      
-        console.log(data)
  
          let image=document.createElement("img");
          image.src=img;

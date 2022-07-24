@@ -524,7 +524,7 @@ ul li ul.login {
   display: none;
   position: absolute;
   z-index: 999;
-  left: 70vw;
+  left: 72.5vw;
   top: 50%;
 }
 
@@ -549,8 +549,8 @@ ul li:hover ul.login {
   border-radius: 5px;
   background: #004ad4;
   color: #fff;
-
   text-align: center;
+
 }
 
 .login-btn {
@@ -562,11 +562,11 @@ ul li:hover ul.login {
   border-radius: 5px;
   background: #5b7c8d;
   color: rgb(204, 204, 204);
-
   text-align: center;
 }
 #login_btn_join{
   background-color: #238dc1;
+  border: 1px solid #238dc1;
 }
 #login_btn_join:hover{
   background: -webkit-linear-gradient(top left, #3d97ce 0%, #12debb 100%);

@@ -10,7 +10,6 @@ checkLogin();
 let flag = JSON.parse(localStorage.getItem("flag")) || false;
 let cartData = JSON.parse(localStorage.getItem("cartData"))
 let total = 0;
-console.log(cartData);
 window.onload = showBagdata()
 
 function showBagdata(){
@@ -67,7 +66,6 @@ function RemoveDataCart(element,index){
 }
 
 document.getElementById("Checkout").onclick = () =>{
-    console.log("hello");
     event.preventDefault()
     if(flag == true){
         window.location.href = "../page/checkout.html"

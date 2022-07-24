@@ -1,4 +1,4 @@
-
+let cartData = JSON.parse(localStorage.getItem("cartData"))
 window.onload = payment();
 function payment(){
     alert("Your OTP IS 123456");

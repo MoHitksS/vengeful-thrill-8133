@@ -6,8 +6,6 @@ checkLogin();
 
 let append =(data,cont) =>{
     data.forEach(({logo,img,category,title,subtitle}) => {
-        
-        console.log(data)
 
         let image=document.createElement("img")
         image.src=img;

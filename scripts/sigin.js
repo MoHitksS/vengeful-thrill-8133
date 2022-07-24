@@ -6,7 +6,6 @@ let checkLogin = () => {
     let cartdata = JSON.parse(localStorage.getItem("cartData")) || [];
     let length = cartdata.length-1;
     if (flag === true) {
-        console.log(temp);
         document.getElementById("hi_signin").innerText = `Hi! ${temp[0].firstname}`
         document.getElementById("status").innerText = `Hello! ${temp[0].name}`
         document.querySelector(".remove>a").href= ""
