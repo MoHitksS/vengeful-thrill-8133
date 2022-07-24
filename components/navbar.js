@@ -14,8 +14,8 @@ function navbar() {
           arrow_drop_down
         </span> </a>
           <ul class="sub-menu" id="">
-            <li><a href="../page/workout-videos.html" class="menu-content"><i class="icon -workout-videos" aria-hidden="true"></i>
-                Workout Videos</a></li>
+            <li><a href="../page/workout-plans.html" class="menu-content"><i class="icon -workout-videos" aria-hidden="true"></i>
+                Workout Plans</a></li>
           </ul>
         </div>
       </li>

@@ -10,7 +10,7 @@ function footer() {
     <div id="top_right">
       <div >
         <a href="../page/workout.html" class="footer_heading">WORKOUTS</a>
-         <a href="../page/workout-video.html" class="footer_content">WORKOUT VIDEOS</a>
+         <a href="../page/workout-plans.html" class="footer_content">WORKOUT PLANS</a>
          <a href="" class="footer_content">CUSTOM WORKOUTS</a>
 
          <a href="../page/programs.html" class="footer_heading">PROGRAMS</a>
@@ -48,8 +48,8 @@ function footer() {
   <div id="bottom">
       <div id="bottom_head">
         <p>Copyright &copy; 2022 Fitness Blender. All rights reserved.</p>
-        <a href="https://www.fitnessblender.com/page/terms-of-use-agreement">Terms of Use</a>
-        <a href="https://www.fitnessblender.com/page/privacy-policy">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
       </div>
       <div id="social_media">
         <div class="social"><a href="https://www.youtube.com/user/FitnessBlender"><i class="fab fa-youtube"></i></a></div>
