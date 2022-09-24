@@ -1,4 +1,4 @@
-# Fitness Blender Cone
+# Fitness Blender Clone
 This is a clone of <a href="https://www.fitnessblender.com/">Fitness Blender</a> website. The clone is complete with Login page, Sign-in page, Shopping Cart, Wishlist and Calender Scheduling feature. Following is the link to the clone of the website.
 * <a href="https://fitness-blender.netlify.app/">Fitness Blender Clone</a>
 
